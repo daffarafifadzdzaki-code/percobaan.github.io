@@ -75,7 +75,7 @@ nav{
     display: flex;
     align-items: center;
     margin-left: -6%;
-    gap: 3rem;
+    gap: 4rem;
     
 }
 nav a{
@@ -84,7 +84,17 @@ nav a{
     transition: color 0.2s ease;
     text-decoration: none;
     color: inherit;
-
+    animation: anime 2s ease forwards;
+}
+@keyframes anime{
+    from{
+        opacity: 0;
+        transform: translate(-50%, -40px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
 }
 nav a:hover{
     color: #000000;
@@ -202,265 +212,423 @@ nav a:hover{
     z-index: 999;
 
 }
-.content h1{
-    font-size: 1.6rem;
-    font-weight: 600;
-    letter-spacing: 0.2em;
-    margin: 4rem 0;
-    line-height: 1.2;
-    text-shadow: 0 0 10px rgba(128, 128, 128, 0.418);
-}
-.content h1:hover{
-    color: #d2d1d1;
-    transform: scale(1.1);
-    transition: 3s;
-}
+
 .description{
-    font-size: 0.9rem;
+    font-size: 1rem;
     letter-spacing: 0.01rem;
-    max-width: 50rem;
-    color: rgb(99, 97, 97);
+    max-width: 65rem;
+    color: rgb(248, 248, 248);
     margin-top: -40px;
+    margin-left: 7rem;
 
 }
-.description:hover{
-    color: rgb(167, 165, 163);
-    transform: scale(1.1);
-    transition: 4s;
-}
+
 .content-one{
       max-width: 56rem;
     margin-left: 10%;
     z-index: 999;
 }
-.content-one h1{
-     font-size: 1.6rem;
-    font-weight: 600;
-    letter-spacing: 0.2em;
-    margin: 4rem 0;
-    line-height: 1.2;
-    text-shadow: 0 0 10px rgba(128, 128, 128, 0.418);
-}
-.content-one h1:hover{
-      color: #d2d1d1;
-    transform: scale(1.1);
-    transition: 3s;
-}
 .description-one{
-     font-size: 0.9rem;
+     font-size: 1rem;
     letter-spacing: 0.01rem;
-    max-width: 80rem;
-    color: rgb(99, 97, 97);
+    max-width: 65rem;
+    color: rgb(255, 255, 255);
     margin-top: -40px;
+    margin-left: 7rem;
 }
-.description-one:hover{
-     color: rgb(167, 165, 163);
-    transform: scale(1.1);
-    transition: 4s;
-    
-}
+
 .image-ola{
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 320px;
+   border-radius: 0.5rem;
 }
 .image-man{
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
 .img-mel{
-     width: 300px;
-    height: 300px;
+     width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
 .img-mid{
-     width: 300px;
-    height: 300px;
+     width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
 .img-folk{
-     width: 300px;
-    height: 300px;
+     width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
 .img-ever{
-     width: 300px;
-    height: 300px;
+     width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
-.container-img{
-    margin: 100px 0 0 200px;
-    width: 70%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-.container-img img{
-    width: 25%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: all ease-in-out 0.5s;
-}
-.container-img img:hover{
-    width: 50%;
-}
+
 .image-folk{
-     width: 300px;
-    height: 300px;
+     width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
 .image-mid{
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
 .image-mel{
-    width: 300px;
-    height: 300px;
+   width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
+}
+.image-rep{
+    width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
 .image-red{
-    width: 300px;
-    height: 300px;
+   width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
 .image-sour{
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 320px;
+    border-radius: 0.5rem;
 }
-.container-image{
-     margin: 100px 0 0 200px;
-    width: 70%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-.container-image img{
-     width: 20%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: all ease-in-out 0.5s;
-}
-.container-image img:hover{
-    width: 50%;
-}
-.container-kota{
-    display: flex;
-    align-items: center;
-    margin-left: 0%;
-    gap: 7rem;
-    
-}
-.container-kota a{
-      font-size: 0.7rem;
-    letter-spacing: 0.4rem;
-    transition: color 0.2s ease;
-    text-decoration: none;
-    color: inherit;   
-    font-weight: 20px;
-}
-.container-kota a:hover{
-    color: #ffffff;
-}
-.button{
-    display: flex;
-    gap: 1rem;
-    padding-bottom: 40px;
-}
-.header-album{
+
+.judul{
      display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 5rem;
-    z-index: 999;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 9rem;
+    font-size: 1.5rem;
+    margin-bottom: 15rem;
+    margin-top: 5rem;
 }
-.nav-album{
-      display: flex;
-    align-items: center;
-    
-    
-    margin-bottom: 12%;
+.MY{
+     display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 3rem;
+    font-size: 2rem;
 }
-.nav-album a{
-       font-size: 0.7rem;
-    letter-spacing: 0.4rem;
-    transition: color 0.2s ease;
-    text-decoration: none;
-    color: inherit;   
-    font-weight: 20px;
+.favorite{
+   display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 3rem;
+    font-size: 2rem;
 }
-.nav-album a:hover{
-     color: #ffffff;
+.music{
+   display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 3rem;
+    font-size: 2rem;
 }
-.buttons{
+.M{
+   font-family:'georgia garamond',serif ;
+}
+.Y{
+   font-family:'brush script mt', cursive ;
+}
+.F{
+   font-family:'lucida handwriting', cursive ;
+}
+.A{
+   font-family:'arial', sans-serif ;
+}
+.V{
+   font-family:'paypyrus',fantasy ;
+}
+.O{
+   font-family:'monaco',monospace ;
+}
+.R{
+   font-family:'vardana',sans-serif ;
+}
+.I{
+   font-family:'brush script mt',cursive ;
+}
+.T{
+   font-family:'copperplate', fantasy ;
+}
+.E{
+   font-family:'georgia garamond', serif ;
+}
+.M2{
+    font-family:'lucida handwriting', cursive ;
+}
+.U{
+    font-family:'times new roman', serif ;
+}
+.S{
+    font-family:'payprus', fantasy ;
+}
+.I2{
+    font-family:'verdana',sans-serif ;
+}
+.C{
+    font-family:'brush script mt', cursive ;
+}
+.AI{
     display: flex;
-    gap: 1rem;
-    padding-bottom: 40px;
+    margin-bottom: 12rem;
+    margin-top: -15.5rem;
+    margin-left: 7rem;
+    font-family: 'courier new', cursive;
+    font-size: 0.8rem;
+    color: #9a9696;
 }
-.btn-get-folk{
-     text-decoration: none;
-    border: 1px solid #ffffff;
-    padding: 0.7rem 1.2rem;
-    border-radius: 40px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    transition: background-color 0.2s ease;
-    margin-left: 11rem;
+.song{
+     display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 7rem;
+    font-size: 3.5rem;
 }
-.btn-get-folk:hover{
-    background-color: #888888;
+.Sa{
+   font-family:'lucida handwriting', cursive ;
 }
-.btn-get-melo{
-     text-decoration: none;
-    border: 1px solid #ffffff;
-    padding: 0.7rem 1.2rem;
-    border-radius: 40px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    transition: background-color 0.2s ease;
-    margin-left: 1.5rem;
+.Oa{
+   font-family:'times new roman', serif ;
+}
+.N{
+      font-family:'paypyrus garomond', fantasy ;
+}
+.G{
+     font-family:'brush script mt',cursive ;
+}
+.album{
+     display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 7rem;
+    font-size: 3.5rem;
+    margin-top: -25rem;
+}
+.Aa{
+   font-family:'copperplate', fantasy  ;
+}
+.L{
+   font-family:'lucida handwriting', cursive ;
+}
+.B{
+   font-family: 'georgia garamond', serif;
+}
+.Ua{
+   font-family: 'brush script mt', cursive;
+}
+.Ma{
+     font-family: 'courier new', monospace;
+}
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(82, 60%, 28%);
+  --title-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 35%);
+  --body-color: hsl(0, 0%, 95%);
+  --container-color: hsl(0, 0%, 100%);
 
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --h2-font-size: 1.25rem;
+  --small-font-size: .813rem;
 }
-.btn-get-melo:hover{
-    background-color: #15d4fa;
-}
-.btn-get-mid{
-    text-decoration: none;
-    border: 1px solid #ffffff;
-    padding: 0.7rem 1.2rem;
-    border-radius: 40px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    transition: background-color 0.2s ease;
-    margin-left: 1rem;
 
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1120px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --small-font-size: .875rem;
+  }
 }
-.btn-get-mid:hover{
-    background-color: #090081;
+
+/*=============== BASE ===============*/
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-.btn-get-red{
-      text-decoration: none;
-    border: 1px solid #ffffff;
-    padding: 0.7rem 1.2rem;
-    border-radius: 40px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    transition: background-color 0.2s ease;
-   margin-left: 1rem;
+
+/*=============== CARD ===============*/
+.card-good {
+  display: grid;
+  place-items: center;
+  margin-inline: 1.5rem;
+  padding-block: 5rem;
 }
-.btn-get-red:hover{
-    background-color: #ff0101;
+
+.card {
+  display: grid;
+  row-gap: 3.5rem;
+  margin-top: -12rem;
 }
-.btn-get-sour{
-     text-decoration: none;
-    border: 1px solid #ffffff;
-    padding: 0.7rem 1.2rem;
-    border-radius: 40px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    transition: background-color 0.2s ease;
-    margin-left: 2rem;
+.card-bo{
+    display: flex;
+    gap: 1.5rem;
+  margin-top: -39rem;
 }
-.btn-get-sour:hover{
-    background-color: #d012ff;
+.card-article {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 1.5rem;
+}
+
+.card-data {
+  width: 200px;
+  background-color: var(--container-color);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
+}
+
+.card-description {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: .25rem;
+}
+
+.card-title {
+  font-size: var(--h2-font-size);
+  font-weight: 500;
+  color: var(--title-color);
+  margin-bottom: .75rem;
+}
+
+.card-button {
+  text-decoration: none;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  color: var(--first-color);
+}
+
+.card-button:hover {
+  text-decoration: underline;
+}
+
+/* Naming animations in hover */
+.card-article:hover .card-data {
+  animation: show-data 1s forwards;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.card-article:hover {
+  animation: remove-overflow 2s forwards;
+}
+
+.card-article:not(:hover) {
+  animation: show-overflow 2s forwards;
+}
+
+.card-article:not(:hover) .card-data {
+  animation: remove-data 1s forwards;
+}
+
+/* Card animation */
+@keyframes show-data {
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(-7rem);
+  }
+}
+
+@keyframes remove-overflow {
+  to {
+    overflow: initial;
+  }
+}
+
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem);
+  }
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(.5rem);
+  }
+}
+
+@keyframes show-overflow {
+  0% {
+    overflow: initial;
+    pointer-events: none;
+  }
+  50% {
+    overflow: hidden;
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+  .card-good {
+    margin-inline: 1rem;
+  }
+
+  .card-data {
+    width: 250px;
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .card-good {
+    height: 100vh;
+  }
+
+  .card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card-image {
+    width: 348px;
+  }
+  .card-data {
+    width: 316px;
+    padding-inline: 2.5rem;
+  }
+}
+.kesimpulan{
+    font-family: 'courier new', cursive;
+}
+.benak{
+    font-family: 'courier new', cursive;
+    margin-top: -17rem;
+    max-width: 65rem;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    color: #ffffff;
 }

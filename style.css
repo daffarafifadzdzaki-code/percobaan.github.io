@@ -73,7 +73,7 @@ header h1{
 nav{
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 4rem;
     margin-left: -5%;
    
 }
@@ -83,7 +83,17 @@ nav a{
     transition: color 0.2s ease;
     text-decoration: none;
     color: inherit;
-
+    animation: anime 2s ease forwards;
+}
+@keyframes anime{
+    from{
+        opacity: 0;
+        transform: translate(-50%, -40px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
 }
 nav a:hover{
     color: #000000;
@@ -96,24 +106,7 @@ nav a:hover{
     z-index: 999;
 
 }
-.tag-box{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-    position: relative;
-    width: 14rem;
-    height: 2.5rem;
-    border-radius: 50px;
-    background: linear-gradient(to right, #656565, #383838, #242424,
-    #595a5b, #757575, #656565);
-    background-size: 150%;
-    animation: animationGradient 2.5s linear infinite;
-    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
-    margin: 6rem 0;
-    
-    
-}
+
 .image-ooooo{
     margin-top: 1rem;
     margin-left: -2rem;
@@ -127,20 +120,7 @@ nav a:hover{
         background-position: 200%;
     }
 }
-.tag-box .tag{
-    position: absolute;
-    inset: 4px 4px 4px 4px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s ease;
 
-}
-.tag-box .tag:hover{
-    color: #202020;
-}
 .content h1{
     font-size: 1.6rem;
     font-weight: 600;
@@ -155,31 +135,11 @@ nav a:hover{
 .description{
     font-size: 0.9rem;
     letter-spacing: 0.01rem;
-    max-width: 15rem;
-    color: rgb(99, 97, 97);
-    margin-top: -40px;
-
-}
-.description:hover{
-    color: rgb(167, 165, 163);
-}
-.buttons {
-    display: flex;
-    gap: 1rem;
-    padding-bottom: 40px;
-}
-.btn-get-started{
-    text-decoration: none;
-    border: 1px solid #ffffff;
-    padding: 0.7rem 1.2rem;
-    border-radius: 40px;
-    font-size: 1.0rem;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    transition: background-color 0.2s ease;
-}
-.btn-get-started:hover{
-    background-color: #ffffff;
+    max-width: 67rem;
+    color: rgb(251, 251, 251);
+    margin-top: -35px;
+    margin-left: 5rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .btn-get-home{
@@ -259,4 +219,74 @@ nav a:hover{
 }
 .btn-get-music:hover{
        background-color: #ffffff;
+}
+.judul-home{
+    display: flex;
+    font-size: 4rem;
+    margin-top: -2rem;
+    gap: 19px;
+    margin-left: 7rem;
+}
+.judul-hello{
+    display: flex;
+    font-size: 4rem;
+    margin-top: 6rem;
+    gap: 4px;
+}
+.judul-world{
+   display: flex;
+    font-size: 4rem;
+    margin-top: 6rem;
+    gap: 4px;
+}
+.H{
+    font-family:'brush script mt' , cursive;
+    color: #ffffff;
+}
+.E{
+     font-family:'courier new', monospace;
+}
+.L{
+      font-family:'papyrus', fantasy ;
+}
+.L2{
+    font-family:'times new roman', serif;
+    color: #d2d1d1;
+}
+.O{
+    font-family:'courier new', monospace ;
+}
+.W{
+ font-family:'lucida handwriting', cursive ;
+ color: #ffffff;
+}
+.O2{
+ font-family:'courier new', cursive ;
+}
+.R{
+ font-family:'georgia garamond', serif ;
+ color: azure;
+}
+.L3{
+   font-family: 'arial', sans-serif;
+}
+.D{
+    font-family:'papyrus', fantasy ;
+}
+.g{
+    display: flex;
+    margin-top: 10rem;
+    font-size: 2rem;
+    margin-left: 24.5rem;
+    font-family: 'lucida handwriting', cursive;
+    color: #ffffff;
+}
+.love{
+    display: flex;
+    max-width: 67rem;
+    color: #ffffff;
+    margin-left: 3.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 4rem;
+    font-family: 'Courier New', Courier, monospace;
 }

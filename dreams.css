@@ -75,7 +75,7 @@ nav{
     display: flex;
     align-items: center;
     margin-left: -6%;
-    gap: 3rem;
+    gap: 4rem;
     
 }
 nav a{
@@ -84,7 +84,17 @@ nav a{
     transition: color 0.2s ease;
     text-decoration: none;
     color: inherit;
-
+    animation: anime 2s ease forwards;
+}
+@keyframes anime{
+    from{
+        opacity: 0;
+        transform: translate(-50%, -40px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
 }
 nav a:hover{
     color: #000000;
@@ -195,4 +205,117 @@ nav a:hover{
 }
 .btn-get-music:hover{
        background-color: #ffffff;
+}
+.dreams-h1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 23rem;
+    font-size: 3rem;
+}
+.h1-one{
+    font-family: 'brush script mt', cursive;
+}
+.h1-two{
+    font-family: 'courier new', monospace;
+}
+.h1-tree{
+    font-family: 'copperplate payyrus', fantasy;
+}
+.h1-for{
+    font-family:'times new roman', serif ;
+}
+.h1-five{
+    font-family:'lucida handwriting', cursive ;
+}
+.h1-six{
+    font-family:'lucida console monaco', monospace ;
+}
+.para-dreams{
+    display: flex;
+    max-width: 40rem;
+    margin-left: 16rem;
+    font-family: 'lucida handwriting', serif;
+    font-size: 1rem;
+}
+.img-dreams{
+    height: 200px;
+    width: 200px;
+    border-radius: 12%;
+}
+.img-robot{
+    height: 200px;
+    width: 200px;
+    border-radius: 12%;
+}
+.img-python{
+     height: 200px;
+    width: 200px;
+    border-radius: 12%;
+}
+.img-neuron{
+      height: 200px;
+    width: 200px;
+    border-radius: 12%;
+}
+.img-trio{
+      height: 200px;
+    width: 200px;
+    border-radius: 12%;
+}
+.img-web{
+      height: 200px;
+    width: 200px;
+    border-radius: 12%;
+}
+.dreams-h2{
+    display: flex;
+    margin-left: 7.5rem;
+    font-size: 2rem;
+    font-family: 'times new roman', serif;
+}
+.robotik{
+     display: flex;
+    max-width: 40rem;
+    margin-left: 7.5rem;
+    gap: 2px;
+}
+.machine{
+      display: flex;
+    max-width: 40rem;
+    margin-left: 38rem;
+    gap: 2px;
+}
+.web{
+      display: flex;
+    max-width: 40rem;
+    margin-left: 7.5rem;
+    gap: 2px;
+}
+.one-p{
+     display: flex;
+    max-width: 30rem;
+    margin-left: 35rem;
+    margin-bottom: 1rem;
+    margin-top: -10.5rem;
+    font-family: serif;
+    font-size: 15;
+}
+.two-p{
+    display: flex;
+    max-width: 30rem;
+    margin-left: 7.5rem;
+    margin-bottom: 1rem;
+    margin-top: -11.5rem;
+    font-family: serif;
+    font-size: 15;
+}
+.tree-p{
+      display: flex;
+    max-width: 30rem;
+    margin-left: 35rem;
+    margin-bottom: 5rem;
+    margin-top: -11rem;
+    font-family: serif;
+    font-size: 15;
 }

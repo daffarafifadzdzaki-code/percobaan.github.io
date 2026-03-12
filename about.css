@@ -75,7 +75,7 @@ nav{
     display: flex;
     align-items: center;
     margin-left: -6%;
-    gap: 3rem;
+    gap: 4rem;
     
 }
 nav a{
@@ -84,7 +84,17 @@ nav a{
     transition: color 0.2s ease;
     text-decoration: none;
     color: inherit;
-
+    animation: anime 2s ease forwards;
+}
+@keyframes anime{
+    from{
+        opacity: 0;
+        transform: translate(-50%, -40px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
 }
 nav a:hover{
     color: #000000;
@@ -98,24 +108,7 @@ nav a:hover{
     border-radius: 50%;
     object-fit: cover;
 }
-.buttons {
-    display: flex;
-    gap: 1rem;
-    padding-bottom: 40px;
-}
-.btn-get-started{
-    text-decoration: none;
-    border: 1px solid #ffffff;
-    padding: 0.7rem 1.2rem;
-    border-radius: 40px;
-    font-size: 1.0rem;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    transition: background-color 0.2s ease;
-}
-.btn-get-started:hover{
-    background-color: #ffffff;
-}
+
 
 .btn-get-home{
     text-decoration: none;
@@ -221,13 +214,130 @@ nav a:hover{
 .container-paragraf{
     display: flex;
     margin-left: 40rem;
-    margin-top: -24rem;
+    margin-top: -26rem;
     font-family: "blackletter shadow",sans-serif;
+    color: #ffffff;
 }
 .paragraf-p{
     display: flex;
     max-width: 19rem;
     margin-left: 40rem;
     font-family: serif;
+    margin-top: 0rem;
+    color: #ffffff;
+}
+.paragraf-github{
+    display: flex;
+    margin-left: 40rem;
+    font-family: sans-serif;
+    color: bisque;
+}
+.header-github{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    z-index: 999;
+}
+.nav-github{
+    display: flex;
+    align-items: center;
+    margin-left: -6%;
+    gap: 3rem;
     
+}
+.nav-github a{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+
+}
+.nav-github a:hover{
+    color: #000000;
+}
+.github{
+      text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 0.7rem 2rem;
+    border-radius: 40px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    transition: background-color 0.2s ease;
+    margin-left: 39rem;
+    margin-top: -3.5rem;
+}
+.github:hover{
+       background-color: #ffffff;
+}
+.btn-get-started{
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 0.7rem 1.2rem;
+    border-radius: 40px;
+    font-size: 1.0rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    transition: background-color 0.2s ease;
+    margin-left: -2rem;
+}
+.btn-get-started:hover{
+    background-color: #ffffff;
+}
+.judul{
+     display: flex;
+    margin-bottom: 17rem;
+    margin-top: 2.5rem;
+    margin-left: 7rem;
+    font-family: 'courier new', cursive;
+    font-size: 0.8rem;
+    color: #9a9696;
+}
+.about-judul{
+      display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 7rem;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+.A{
+    font-family: 'lucida handwriting', cursive;
+}
+.B{
+    font-family: 'times new roman', serif;
+    color: #9a9696;
+}
+.O{
+    font-family: 'paypyrus', fantasy;
+    color: #ffffff;
+}
+.U{
+    font-family: 'lucida', monospace;
+}
+.T{
+    font-family: 'lucida handwriting', cursive;
+}
+.me-judul{
+      display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 7rem;
+    font-size: 3.5rem;
+}
+.M{
+    font-family: 'brush script mt', cursive;
+}
+.E{
+    font-family: 'paypyrus', fantasy;
+}
+.AI{
+    display: flex;
+    margin-top: -19rem;
+    margin-bottom: 15rem;
+    margin-left: 7rem;
+    font-family: 'courier new', monospace;
+    color: #ffffff;
 }
